@@ -11,9 +11,6 @@ source $ZPLUG_HOME/init.zsh
 
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 
-zplug "zsh-users/zsh-completions"
-zplug "zsh-users/zsh-autosuggestions", defer:1, on:"zsh-users/zsh-completions"
-
 zplug "plugins/git", from:oh-my-zsh
 zplug "plugins/common-aliases", from:oh-my-zsh
 
