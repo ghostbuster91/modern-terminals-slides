@@ -308,7 +308,7 @@ Installation:
 
 - prompt
 - aliases
-- plugins
+- plugins (https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins)
 
 ---
 
@@ -319,7 +319,7 @@ Installation:
 
 - prompt
 - aliases
-- plugins
+- plugins (https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins)
 - problems
 
 ---
@@ -332,16 +332,7 @@ Installation:
 
 
 ```
-# :: Zplug - ZSH plugin manager
-export ZPLUG_HOME=$HOME/.zplug
-
-# Check if zplug is installed
-if [[ ! -d $ZPLUG_HOME ]]; then
-  git clone https://github.com/zplug/zplug $ZPLUG_HOME
-  source $ZPLUG_HOME/init.zsh && zplug update --self
-fi
-
-source $ZPLUG_HOME/init.zsh
+# some boilerplate here
 
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 
@@ -350,32 +341,14 @@ zplug "plugins/common-aliases", from:oh-my-zsh
 
 zplug "themes/robbyrussell", from:oh-my-zsh
 
-
- # Install plugins if there are plugins that have not been installed
-if ! zplug check --verbose; then
-    printf "Install? [y/N]: "
-    if read -q; then
-        echo; zplug install
-    fi
-fi
-
-zplug load
+# some boilerplate here
 ```
 
 ---
 # Plugin Managers
 
 ```
-# :: Zplug - ZSH plugin manager
-export ZPLUG_HOME=$HOME/.zplug
-
-# Check if zplug is installed
-if [[ ! -d $ZPLUG_HOME ]]; then
-  git clone https://github.com/zplug/zplug $ZPLUG_HOME
-  source $ZPLUG_HOME/init.zsh && zplug update --self
-fi
-
-source $ZPLUG_HOME/init.zsh
+# some boilerplate here
 
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 
@@ -384,16 +357,7 @@ zplug "plugins/common-aliases", from:oh-my-zsh, at: "8f56a8bdf39d7727ab0e220f016
 
 zplug "themes/robbyrussell", from:oh-my-zsh, at: "8f56a8bdf39d7727ab0e220f0164f78c77f9c50e"
 
-
- # Install plugins if there are plugins that have not been installed
-if ! zplug check --verbose; then
-    printf "Install? [y/N]: "
-    if read -q; then
-        echo; zplug install
-    fi
-fi
-
-zplug load
+# some boilerplate here
 ```
 ---
 
@@ -687,18 +651,34 @@ github: ghostbuster91
 
 twitter: @kkondzielski
 
-presentation slides: TODO
+presentation slides: https://github.com/ghostbuster91/modern-terminals-slides
+
+dot-files: https://github.com/ghostbuster91/dot-files
 
 ---
 
-# Agenda
-- Starting from basic zsh shell
-- Aliases 
-- Prompt customization
-- Frameworks 
-- Plugin managers
-- My favourite plugins
-- Usefull tricks in tmux
-- Hints
-- Vim
+```
+                                                                                       
+ooooooooooooo oooo                              oooo                                               
+8'   888   '8 '888                              '888                                               
+     888       888 .oo.    .oooo.   ooo. .oo.    888  oooo       oooo    ooo  .ooooo.  oooo  oooo  
+     888       888P"Y88b  'P  )88b  '888P"Y88b   888 .8P'         '88.  .8'  d88' '88b '888  '888  
+     888       888   888   .oP"888   888   888   888888.           '88..8'   888   888  888   888  
+     888       888   888  d8(  888   888   888   888 '88b.          '888'    888   888  888   888  
+    o888o     o888o o888o 'Y888""8o o888o o888o o888o o888o          .8'     'Y8bod8P'  'V88V"V8P' 
+                                                                 .o..P'                            
+                                                                 'Y8P'                             
+                                                                                                   
+```
 
+github: ghostbuster91
+
+twitter: @kkondzielski
+
+presentation slides: https://github.com/ghostbuster91/modern-terminals-slides
+
+dot-files: https://github.com/ghostbuster91/dot-files
+
+IOG: https://iohk.io/
+
+# We are hiring!
