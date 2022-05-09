@@ -32,12 +32,30 @@ Increase productivity
 
 Increase productivity
 
+## Plan
+
+Start from scratch and extend
+
+---
+## Goal
+
+Increase productivity
+
+## Plan
+
+Start from scratch and extend
+
 ## Rules
 
 ---
 ## Goal
 
 Increase productivity
+
+## Plan
+
+Start from scratch and extend
+
 ## Rules
 
 - Minimal amount of manual steps during installation
@@ -46,6 +64,11 @@ Increase productivity
 ## Goal
 
 Increase productivity
+
+## Plan
+
+Start from scratch and extend
+
 ## Rules
 
 - Minimal amount of manual steps during installation
@@ -55,6 +78,11 @@ Increase productivity
 ## Goal
 
 Increase productivity
+
+## Plan
+
+Start from scratch and extend
+
 ## Rules
 
 - Minimal amount of manual steps during installation
@@ -65,6 +93,11 @@ Increase productivity
 ## Goal
 
 Increase productivity
+
+## Plan
+
+Start from scratch and extend
+
 ## Rules
 
 - Minimal amount of manual steps during installation
@@ -76,6 +109,11 @@ Increase productivity
 ## Goal
 
 Increase productivity
+
+## Plan
+
+Start from scratch and extend
+
 ## Rules
 
 - Minimal amount of manual steps during installation
@@ -91,6 +129,11 @@ Increase productivity
 ## Goal
 
 Increase productivity
+
+## Plan
+
+Start from scratch and extend
+
 ## Rules
 
 - Minimal amount of manual steps during installation
@@ -280,7 +323,13 @@ Installation:
 - problems
 
 ---
+
 # Plugin Managers
+
+---
+
+# Plugin Managers
+
 
 ```
 # :: Zplug - ZSH plugin manager
@@ -358,6 +407,18 @@ Can manage everything
 - Local plugins
 - etc. (you can add your own sources!)
 
+---
+
+# zplug ftw!
+
+Can manage everything
+- Zsh plugins/UNIX commands on GitHub and Bitbucket
+- Gist files (gist.github.com)
+- Externally managed plugins e.g., oh-my-zsh and prezto plugins/themes
+- Binary artifacts on GitHub Releases
+- Local plugins
+- etc. (you can add your own sources!)
+
 ```
 zplug "stedolan/jq", \
     from:gh-r, \
@@ -383,6 +444,15 @@ zplug "stedolan/jq", \
 
 - Not a popular choice to manage your environment to that degree
 - No dependency resolution
+- Configuration written in bash
+
+---
+
+# problems with zplug
+
+- Not a popular choice to manage your environment to that degree
+- No dependency resolution
+- Configuration written in bash
 - Is it really reproducible? 
 
 ---
@@ -434,21 +504,182 @@ zplug "stedolan/jq", \
 - zsh-you-should-use
 - fzf & fzf-tab
 - z 
-- kubectl-fzf
+- kubectl-fzf (not maintained)
+
+---
+
+# Tmux
+
+1. Quick spawn&switch
+
+
+---
+
+# Tmux
+
+1. Quick spawn&switch
+2. All terminals in one place
+
+
+---
+
+# Tmux
+
+1. Quick spawn&switch
+2. All terminals in one place
+3. Easy spliting and pane management
+
+---
+
+# Tmux
+
+1. Quick spawn&switch
+2. All terminals in one place
+3. Easy spliting and pane management
+4. Content extraction
+
+---
+
+# Vim
+
+---
+
+# Vim
+
+1. Tree-sitter
+
+---
+
+# Vim
+
+1. Tree-sitter
+2. LSP
+
+---
+
+# Vim
+
+1. Tree-sitter
+2. LSP
+3. Telescope
+
+---
+
+# Vim
+
+1. Tree-sitter
+2. LSP
+3. Telescope
+4. Completion
+
+---
+
+# Vim
+
+1. Tree-sitter
+2. LSP
+3. Telescope
+4. Completion
+5. Httpx
+
+---
+
+# Vim
+
+1. Tree-sitter
+2. LSP
+3. Telescope
+4. Completion
+5. Httpx
+6. Which-key
+
+---
+
+# problems with zplug
+
+- Not a popular choice to manage your environment to that degree
+- No dependency resolution
+- Configuration written in bash
+- Is it really reproducible? 
+
+---
+
+# The endgame 
+
+
+---
+
+# The endgame 
+
+```
+          ▗▄▄▄       ▗▄▄▄▄    ▄▄▄▖
+          ▜███▙       ▜███▙  ▟███▛
+           ▜███▙       ▜███▙▟███▛
+            ▜███▙       ▜██████▛
+     ▟█████████████████▙ ▜████▛     ▟▙
+    ▟███████████████████▙ ▜███▙    ▟██▙
+           ▄▄▄▄▖           ▜███▙  ▟███▛
+          ▟███▛             ▜██▛ ▟███▛
+         ▟███▛               ▜▛ ▟███▛
+▟███████████▛                  ▟██████████▙
+▜██████████▛                  ▟███████████▛
+      ▟███▛ ▟▙               ▟███▛
+     ▟███▛ ▟██▙             ▟███▛
+    ▟███▛  ▜███▙           ▝▀▀▀▀
+    ▜██▛    ▜███▙ ▜██████████████████▛
+     ▜▛     ▟████▙ ▜████████████████▛
+           ▟██████▙       ▜███▙
+          ▟███▛▜███▙       ▜███▙
+         ▟███▛  ▜███▙       ▜███▙
+         ▝▀▀▀    ▀▀▀▀▘       ▀▀▀▘
+                  NIX
+```
+
+---
+
+# The endgame 
+
+```
+          ▗▄▄▄       ▗▄▄▄▄    ▄▄▄▖
+          ▜███▙       ▜███▙  ▟███▛
+           ▜███▙       ▜███▙▟███▛
+            ▜███▙       ▜██████▛
+     ▟█████████████████▙ ▜████▛     ▟▙
+    ▟███████████████████▙ ▜███▙    ▟██▙
+           ▄▄▄▄▖           ▜███▙  ▟███▛
+          ▟███▛             ▜██▛ ▟███▛
+         ▟███▛               ▜▛ ▟███▛
+▟███████████▛                  ▟██████████▙
+▜██████████▛                  ▟███████████▛
+      ▟███▛ ▟▙               ▟███▛
+     ▟███▛ ▟██▙             ▟███▛
+    ▟███▛  ▜███▙           ▝▀▀▀▀
+    ▜██▛    ▜███▙ ▜██████████████████▛
+     ▜▛     ▟████▙ ▜████████████████▛
+           ▟██████▙       ▜███▙
+          ▟███▛▜███▙       ▜███▙
+         ▟███▛  ▜███▙       ▜███▙
+         ▝▀▀▀    ▀▀▀▀▘       ▀▀▀▘
+                  NIX
+```
+1. Purly functional package manager
+2. Fully reproducible
+3. Declarative configuration
+
 
 ---
 
 ```
-              ,,                                                                         
+                                                                                       
 ooooooooooooo oooo                              oooo                                               
-8'   888   `8 `888                              `888                                               
+8'   888   '8 '888                              '888                                               
      888       888 .oo.    .oooo.   ooo. .oo.    888  oooo       oooo    ooo  .ooooo.  oooo  oooo  
-     888       888P"Y88b  `P  )88b  `888P"Y88b   888 .8P'         `88.  .8'  d88' `88b `888  `888  
-     888       888   888   .oP"888   888   888   888888.           `88..8'   888   888  888   888  
-     888       888   888  d8(  888   888   888   888 `88b.          `888'    888   888  888   888  
-    o888o     o888o o888o `Y888""8o o888o o888o o888o o888o          .8'     `Y8bod8P'  `V88V"V8P' 
+     888       888P"Y88b  'P  )88b  '888P"Y88b   888 .8P'         '88.  .8'  d88' '88b '888  '888  
+     888       888   888   .oP"888   888   888   888888.           '88..8'   888   888  888   888  
+     888       888   888  d8(  888   888   888   888 '88b.          '888'    888   888  888   888  
+    o888o     o888o o888o 'Y888""8o o888o o888o o888o o888o          .8'     'Y8bod8P'  'V88V"V8P' 
                                                                  .o..P'                            
-                                                                 `Y8P'                             
+                                                                 'Y8P'                             
                                                                                                    
 ```
 
@@ -470,4 +701,4 @@ presentation slides: TODO
 - Usefull tricks in tmux
 - Hints
 - Vim
----
+
